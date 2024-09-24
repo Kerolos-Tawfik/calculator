@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="calculator.ico">
+  </head>
+  <body>
+    <main id="Clac" class="Clac">
+      <div id="displayOut" class="displayOut">
+        <div>
+        <p id="pastDisplay"></p></div>
+        <h1 id="display">0</h1>
+      </div>
+      <div id="btns" class="btns">
+        <button  class="op"onclick="theNumberClicked(this)">/</button> <button class="op"onclick="theNumberClicked(this)">CE</button> <button class="op"onclick="theNumberClicked(this)">C</button>
+        <button class="op"onclick="theNumberClicked(this)">Del</button>
+        <button onclick="theNumberClicked(this)">1</button>
+        <button onclick="theNumberClicked(this)">2</button>
+        <button onclick="theNumberClicked(this)">3</button><button class="op"onclick="theNumberClicked(this)">+</button>
+        <button onclick="theNumberClicked(this)">4</button>
+        <button onclick="theNumberClicked(this)">5</button>
+        <button onclick="theNumberClicked(this)">6</button><button class="op"onclick="theNumberClicked(this)">x</button>
+        <button onclick="theNumberClicked(this)">7</button>
+        <button onclick="theNumberClicked(this)">8</button>
+
+        <button onclick="theNumberClicked(this)">9</button><button class="op"onclick="theNumberClicked(this)">-</button>
+
+        <button onclick="theNumberClicked(this)">%</button> <button onclick="theNumberClicked(this)">0</button>
+        <button onclick="theNumberClicked(this)">.</button>
+
+        <button class="equal" onclick="theNumberClicked(this)">=</button>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
